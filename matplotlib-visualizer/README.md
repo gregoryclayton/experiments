@@ -9,3 +9,6 @@
 
 <img src="https://raw.githubusercontent.com/gregoryclayton/experiments/main/matplotlib-visualizer/images/matplotlib4.png" style="height:350px;">
 
+<img src="https://raw.githubusercontent.com/gregoryclayton/experiments/main/matplotlib-visualizer/images/matplotlib_vid3.gif" style="height:350px;">
+
+<img src="https://raw.githubusercontent.com/gregoryclayton/experiments/main/matplotlib-visualizer/images/matplotlib_vid5.gif" style="height:350px;">
