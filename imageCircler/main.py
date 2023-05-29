@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 # Open the input image as numpy array, convert to RGB
-img = Image.open("C:/Users/grego/Desktop/pros/imageCircler/pics/picture2.png").convert("RGB")
+img = Image.open("path to image").convert("RGB")
 npImage = np.array(img)
 h,w = img.size
 
