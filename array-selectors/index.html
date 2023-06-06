@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <style>
+
+
+            body {
+                background-color:#ffffff;
+            }
+
+            #myImage {
+                left:100px;
+                top: 10%;
+                position:fixed;
+                
+            }
+
+            #description {
+                bottom:20%;
+                font-family: monospace;
+                position: absolute;
+                margin-left: 100px;
+            }
+
+
+            #yes {
+                left:165px;
+                top:280px;
+                position:absolute;
+                width:70px;
+                margin:10px;
+                padding:20px;
+                border-width: 1px;
+                border-radius: 10px;
+             
+            }
+
+            #color {
+                width:10px;
+                height:10px;
+                position:absolute;
+                left:42px;
+                top:140px;
+                background-color: rgb(142, 142, 17);
+                border-radius: 10px;
+                padding:20px;
+            }
+
+            #no {
+                left:243px;
+                top:280px;
+                position:absolute;
+                width:70px;
+                padding:20px;
+                margin:10px;
+                border-width: 1px;
+                border-radius: 10px;
+             
+            }
+
+            #onebut {
+                left:87px;
+                top:280px;
+                position:absolute;
+                width:70px;
+                padding:20px;
+                margin:10px;
+                border-width: 1px;
+                border-radius: 10px;
+
+            }
+
+            #twobut {
+                left:322px;
+                top:280px;
+                position:absolute;
+                width:70px;
+                padding:20px;
+                margin:10px;
+                border-width: 1px;
+                border-radius: 10px;
+
+            }
+
+            #words {
+                position:relative;
+                left:200px;
+                font-family: monospace;
+                margin:20px;
+                
+            }
+
+            #yes:hover, #no:hover, #onebut:hover, #twobut:hover {
+                background-color: aliceblue;
+            }
+        </style>
+        <script type="text/javascript" src="main.js"></script>
+    </header>
+    <body>
+
+    <div id="color"></div>
+
+    <div id="conty">
+
+        <div id="words">test</div>
+
+        <img id="myImage" src="images/cicada.jpg" style="width:300px;height:225px;border-radius:10px;">
+        <button id="yes" onclick="yes()">yes</button>
+        <button id="no" onclick="no()">no</button>
+        <button id="onebut" onclick ="wording()">1</button>
+        <button id="twobut" onclick ="coloring()">2</button>
+    </div>
+
+    <p id="description">random array selectors<br><br>
+    - button 1 selects a random word from the wordBank array<br>
+    - button yes selects a random picture from the imageBank array (add image paths)<br>
+    - button no selects a random image from the imageBank2 array (add image paths)<br>
+    - button 2 selects a random color value from the colorBank array<br></p>
+    </body>
+</html>
