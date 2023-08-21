@@ -12,3 +12,6 @@ the early buds of greater things</b></p>
 
 <h3><i>image-Circler</i></h3>
 <img src="imageCircler/title.png" style="width:800px;">
+
+<h3><i>Stucco</i></h3>
+<img src="https://github.com/gregoryclayton/experiments/blob/cb2d2336bfb774b6eb4da21db1ab0d673dfb1767/stucco/stuccoScreen.png" style="width:800px;">
