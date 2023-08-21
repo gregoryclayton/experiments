@@ -1,10 +1,13 @@
-these are are the assets I created for the short filnm stucco<br>
+these are are the assets I created for the short film stucco<br>
 here's a link if you haven't seen it:<br>
 https://www.youtube.com/watch?v=wnZcq3Dd5zk <br>
  - the log files are just fake network log dumps
  - the scripts and teh whole project really is inspired by mr. robot, <br>
    still a favorite to this day<br>
 - there's a few extra scripts that didn't make it into the final cut too.
+
+- this is the website used for the encryption process:<br>
+https://www.devglan.com/online-tools/text-encryption-decryption
 
 - initially the whole thing was running on a virtual machine instance<br>
 of kali linux to be real authentic to source, but all that going<br>
